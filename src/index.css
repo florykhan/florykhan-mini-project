@@ -6,15 +6,6 @@ body {
   color: #333;
 }
 
-<<<<<<< HEAD
-=======
-section {
-  padding: 60px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
->>>>>>> 232da2a8062144c115374b5e1be7450bb6914a4b
 h1, h2, h3, h4 {
   color: #222;
 }
@@ -32,7 +23,7 @@ img {
   border-radius: 8px;
   max-width: 100%;
   height: auto;
-<<<<<<< HEAD
+
 }
 
 html {
@@ -64,6 +55,4 @@ html {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
-=======
->>>>>>> 232da2a8062144c115374b5e1be7450bb6914a4b
 }
