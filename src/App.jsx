@@ -10,13 +10,32 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
+      
       <NavBar />
-      <Hero />
-      <Projects />
-      <Skills />
-      <Education />
-      <Contact />
-      <Footer />
+
+      <section className = "section section-grey">
+        <Hero />
+      </section>
+
+      <section className = "section section-white">
+        <Projects />
+      </section>
+
+      <section className = "section section-grey">
+        <Skills />
+      </section>
+      
+      <section className = "section section-white">
+        <Education />
+      </section>
+
+      <section classname = "section section-grey">
+        <Contact />
+      </section>
+
+      <section classname = "section section-dark_grey">
+        <Footer />
+      </section>
     </div>
   );
 }
