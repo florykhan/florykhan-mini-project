@@ -42,9 +42,10 @@ const ulStyle = {
   listStyle: 'none',
   justifyContent: 'center',
   alignItems: 'center',
-  gap: '22px',
+  gap: '21px',
   margin: 0,
-  padding: 0
+  padding: 0,
+  transform: 'translateX(22px)'
 };
 
 const liStyle = {
