@@ -42,7 +42,7 @@ const ulStyle = {
   listStyle: 'none',
   justifyContent: 'center',
   alignItems: 'center',
-  gap: '30px',
+  gap: '22px',
   margin: 0,
   padding: 0
 };
@@ -54,7 +54,8 @@ const liStyle = {
 const aStyle = {
   color: '#fff',
   textDecoration: 'none',
-  fontWeight: '500'
+  fontWeight: '500',
+  fontSize: '14px',
 };
 
 export default NavBar;
