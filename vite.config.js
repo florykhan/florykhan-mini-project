@@ -5,8 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
     plugins: [react()],
     base: "/florykhan-mini-project/",
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> 232da2a8062144c115374b5e1be7450bb6914a4b
