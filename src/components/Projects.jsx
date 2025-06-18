@@ -3,7 +3,7 @@ import React from 'react';
 function Projects() {
   return (
     <section id="projects">
-      <h2>My Projects</h2>
+      <h2 className="center-heading">Projects</h2>
 
       <div className="project-card">
         <h3>Workout Tracker</h3>
