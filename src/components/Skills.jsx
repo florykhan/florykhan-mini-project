@@ -2,30 +2,34 @@ import React from 'react';
 
 function Skills() {
   return (
-    <section id="skills">
+    <section id="skills" className="section section-grey skills-tight">
       <h2 className="center-heading">Skills</h2>
-      
-      <h3>Languages</h3>
-      <ul>
-        <li>Python</li>
-        <li>C++</li>
-        <li>JavaScript</li>
-      </ul>
-
-      <h3>Frameworks & Tools</h3>
-      <ul>
-        <li>React</li>
-        <li>Git & GitHub</li>
-        <li>Vite</li>
-        <li>Linux CLI</li>
-      </ul>
-
-      <h3>Other</h3>
-      <ul>
-        <li>Fast learner</li>
-        <li>Team collaboration</li>
-        <li>Public speaking</li>
-      </ul>
+      <div className="skills-grid">
+        <div className="skill-box">
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div className="skill-box">
+          <h3>Frameworks</h3>
+          <ul>
+            <li>React</li>
+            <li>Vite</li>
+            <li>Tailwind (basic)</li>
+          </ul>
+        </div>
+        <div className="skill-box">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>Linux Terminal</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 }

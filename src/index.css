@@ -59,7 +59,7 @@ html {
 }
 
 .section {
-  padding: 60px 20px;
+  padding: 40px 20px;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -86,4 +86,36 @@ html {
 
 .center-heading {
   text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.skill-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: left;
+}
+
+.skill-box h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.skill-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0 0 0;
+}
+
+.skills-tight {
+  padding-top: 5px;
 }
