@@ -7,7 +7,7 @@ function Skills() {
 
       <div className="projects-grid">
         <div className="project-card no-hover">
-          <img src="languages.png" alt="Languages Icon" className="project-image" />
+          <img src="languages.png" alt="Languages Icon" className="project-image" title="Programming Languages" />
           <div className="project-content">
             <h3>Languages</h3>
             <ul>
@@ -19,7 +19,7 @@ function Skills() {
         </div>
 
         <div className="project-card no-hover">
-          <img src="frameworks.png" alt="Frameworks Icon" className="project-image" />
+          <img src="frameworks.png" alt="Frameworks Icon" className="project-image" title="Frameworks"/>
           <div className="project-content">
             <h3>Frameworks</h3>
             <ul>
@@ -31,7 +31,7 @@ function Skills() {
         </div>
 
         <div className="project-card no-hover">
-          <img src="tools.png" alt="Tools Icon" className="project-image" />
+          <img src="tools.png" alt="Tools Icon" className="project-image" title="Tools"/>
           <div className="project-content">
             <h3>Tools</h3>
             <ul>
