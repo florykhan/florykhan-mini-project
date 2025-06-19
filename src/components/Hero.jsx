@@ -8,6 +8,9 @@ function Hero() {
         <a href="https://www.sfu.ca" target="_blank" rel="noopener noreferrer">
           <img src="SFU.jpg" alt="SFU Logo" style={logoStyle} />
         </a>
+        <a href="https://drive.google.com/file/d/1-HTNzZiRZ03zXCsRYd6BR4RN6uaQ-pbp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <img src="Resume.png" alt="Download Resume" style={buttonStyle} />
+        </a>
       </div>
       <div>
         <h2>
@@ -45,6 +48,12 @@ const imageStyle = {
 const logoStyle = {
   width: '65px',
   height: 'auto',
+};
+
+const buttonStyle = {
+  width: '140px',
+  height: 'auto',
+  marginLeft: '600px',
 };
 
 export default Hero;
