@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section id="hero" className="hero-section">
       <div style={imageRow}>
-        <img src="Ilian.jpg" alt="Ilian Khankhalaev" style={imageStyle} title="Ilian Khnakhalaev"/>
+        <img src="Ilian.jpg" alt="Ilian Khankhalaev" style={imageStyle} title="Ilian Khankhalaev"/>
         <a href="https://www.sfu.ca" target="_blank" rel="noopener noreferrer" title="SFU Website">
           <img src="SFU.jpg" alt="SFU Logo" style={logoStyle} />
         </a>
