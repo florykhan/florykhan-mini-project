@@ -2,14 +2,14 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section id="hero">
+    <section id="hero" className="hero-section">
       <div style={imageRow}>
         <img src="Ilian.jpg" alt="Ilian Khankhalaev" style={imageStyle} />
         <a href="https://www.sfu.ca" target="_blank" rel="noopener noreferrer" title="SFU Website">
           <img src="SFU.jpg" alt="SFU Logo" style={logoStyle} />
         </a>
         <a href="https://drive.google.com/file/d/1-HTNzZiRZ03zXCsRYd6BR4RN6uaQ-pbp/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
-          <img src="Resume.png" alt="Download Resume" style={buttonStyle} />
+          <img src="Resume2.png" alt="Download Resume" style={buttonStyle} />
         </a>
       </div>
       <div>
@@ -18,6 +18,7 @@ function Hero() {
           <strong>Ilian Khankhalaev,</strong>
         </h2>
         <p>I'm a computing science student passionate about AI, software development, and building useful tools.</p>
+      
       </div>
     </section>
   );
@@ -53,7 +54,7 @@ const logoStyle = {
 const buttonStyle = {
   width: '140px',
   height: 'auto',
-  marginLeft: '600px',
+  marginLeft: '540px',
 };
 
 export default Hero;

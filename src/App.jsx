@@ -13,7 +13,7 @@ function App() {
       
       <NavBar />
 
-      <section className = "section section-grey">
+      <section className = "section section-dark_grey">
         <Hero />
       </section>
 
