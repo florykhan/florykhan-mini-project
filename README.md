@@ -4,7 +4,7 @@ This is a responsive one-page portfolio website built with React and Vite. It sh
 
 ## Live Demo
 
-Check it out here: [florykhan.github.io](https://florykhan.github.io/)
+Check it out here: [florykhan.github.io](https://florykhan.github.io/florykhan-mini-project/)
 
 ## Technologies Used
 
