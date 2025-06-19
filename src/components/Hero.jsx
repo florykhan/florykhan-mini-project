@@ -17,8 +17,15 @@ function Hero() {
           <span style={{ fontWeight: 'normal' }}>Hi, I'm </span>
           <strong>Ilian Khankhalaev,</strong>
         </h2>
-        <p>I'm a computing science student passionate about AI, software development, and building useful tools.</p>
-      
+        <p>I’m a Computing Science student at Simon Fraser University, deeply passionate about AI, software development, and building tools that make life easier. With a multicultural background and a strong academic standing, I’m driven by curiosity, creativity, and the pursuit of meaningful work.</p>
+        <p>
+          My journey in tech began with Python and C++, and has grown to include modern tools like React, Git, and Vite. I enjoy solving complex problems, working on collaborative projects, and constantly learning new technologies.
+          I’ve been recognized on the Dean’s Honour Roll and ranked in the top 5% of Computing Science students at SFU.
+        </p>
+        <p>
+          Beyond academics, I’ve contributed to open-source projects, volunteered at tech events, and served as a peer educator. I believe that great software is built at the intersection of logic and empathy — and I’m excited to keep building, learning, and sharing.
+        </p>
+
       </div>
     </section>
   );
