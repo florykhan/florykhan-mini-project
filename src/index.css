@@ -11,6 +11,28 @@ body {
   background-position: center;       
 }
 
+footer {
+  margin-top: 120px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  gap: 25px;               
+  padding-bottom: 10px;
+}
+
+.footer-icons img {
+  width: 35px;             
+  height: 35px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
 h1, h2, h3, h4 {
   color: #222;
 }

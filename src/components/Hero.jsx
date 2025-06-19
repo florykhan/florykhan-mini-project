@@ -5,10 +5,10 @@ function Hero() {
     <section id="hero">
       <div style={imageRow}>
         <img src="Ilian.jpg" alt="Ilian Khankhalaev" style={imageStyle} />
-        <a href="https://www.sfu.ca" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.sfu.ca" target="_blank" rel="noopener noreferrer" title="SFU Website">
           <img src="SFU.jpg" alt="SFU Logo" style={logoStyle} />
         </a>
-        <a href="https://drive.google.com/file/d/1-HTNzZiRZ03zXCsRYd6BR4RN6uaQ-pbp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1-HTNzZiRZ03zXCsRYd6BR4RN6uaQ-pbp/view?usp=sharing" target="_blank" rel="noopener noreferrer" title="Resume">
           <img src="Resume.png" alt="Download Resume" style={buttonStyle} />
         </a>
       </div>
