@@ -7,7 +7,7 @@ function Projects() {
 
       <div className="projects-grid">
         <a
-          href="https://github.com/CMPT-276-SUMMER-2025/final-project-9-pines"
+          href="https://drive.google.com/file/d/1sL96MtJGCV3OfQlhAZtHDEmBhysRBvvw/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
           className="project-card-link"
@@ -22,7 +22,7 @@ function Projects() {
         </a>
 
         <a
-          href="https://github.com/florykhan/study-scheduler"
+          href="https://drive.google.com/file/d/1E_B45SQHn8SGGhnusJuIGf-Fz6wznpbt/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
           className="project-card-link"
